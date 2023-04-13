@@ -3,3 +3,4 @@
 # Then I make feature scaling, so import "StandardScaler" and prepare my "X_train" and "X_test" """sc.fit_transform(X_train)""" """sc.transform(X_test)"""
 # Now I import "DecisionTreeClassifier" and set "criterion" to "entropy"
 # And then train my model """classifier.fit(X_train, y_train)""" and get prediction """classifier.predict(sc.transform([[30, 87000]]))"""
+# Then prepare my "y_pred" """y_pred = classifier.predict(X_test)"""
