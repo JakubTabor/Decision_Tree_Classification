@@ -6,3 +6,4 @@
 # Then prepare my "y_pred" """y_pred = classifier.predict(X_test)"""
 # Next  import "confusion_matrix" and put my "y_pred" and "y_test" into it """confusion_matrix(y_test, y_pred)""" 
 # And get my score """accuracy_score(y_test, y_pred)"""
+# Finally i make visualization of my results
