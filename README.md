@@ -5,3 +5,4 @@
 # And then train my model """classifier.fit(X_train, y_train)""" and get prediction """classifier.predict(sc.transform([[30, 87000]]))"""
 # Then prepare my "y_pred" """y_pred = classifier.predict(X_test)"""
 # Next  import "confusion_matrix" and put my "y_pred" and "y_test" into it """confusion_matrix(y_test, y_pred)""" 
+# And get my score """accuracy_score(y_test, y_pred)"""
